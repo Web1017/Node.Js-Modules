@@ -4,12 +4,12 @@
 // ---> https://mva.microsoft.com/en-US/training-courses/mastering-nodejs-part-2-nodejs-modules-16666?l=i0DY0JjtC_3906218965
 
 //type node-inspector to launch it
-//destructuring & aliasing (git)
-
-// const {doSomething, getItDone: git} = require('./first-module');
-// doSomething();
-// git();
-
+/*
+    destructuring & aliasing (git)
+    const {doSomething, getItDone: git} = require('./first-module');
+    doSomething();
+    git();
+*/
 const firstMod1 = require('./first-module');
 
 const firstMod2 = require('./first-module');
